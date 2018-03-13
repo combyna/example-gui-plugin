@@ -1,0 +1,12 @@
+{
+    "name": "combyna/example-gui-plugin",
+    "description": "An example Combyna plugin for extending the basic set of GUI components",
+    "autoload": {
+        "psr-4": {
+            "Combyna\\Plugin\\ExampleGui\\": "php/src"
+        }
+    },
+    "require": {
+        "combyna/combyna": "dev-rush"
+    }
+}

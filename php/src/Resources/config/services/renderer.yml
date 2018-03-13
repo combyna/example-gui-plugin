@@ -1,0 +1,10 @@
+services:
+    combyna_example_gui.renderer.html.my_generic_widget:
+        class: Combyna\Component\Renderer\Html\WidgetRenderer\GenericWidgetRenderer
+        arguments:
+            - '@combyna.renderer.html.widget'
+            - 'example_gui'
+            - 'my_generic'
+            - 'body'
+        tags:
+            - {name: combyna.html_widget_renderer}

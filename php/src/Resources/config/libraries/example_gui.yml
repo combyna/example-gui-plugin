@@ -1,0 +1,11 @@
+name: example_gui
+description: Example additional GUI tools
+events: []
+widgets:
+    my_generic:
+        type: primitive
+        attributes:
+            title: text
+        children:
+            body: ~
+        events: []
