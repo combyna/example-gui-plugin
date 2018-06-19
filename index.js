@@ -1,7 +1,7 @@
-import MyGenericWidgetComponent from './js/src/Component/MyGenericWidgetComponent';
+import myGenericWidgetComponentElementFactory from './js/src/Component/myGenericWidgetComponentElementFactory';
 
 const MY_LIB = 'example_gui';
 
-export default (componentRepository) => {
-    componentRepository.addComponent(MY_LIB, 'my_generic', MyGenericWidgetComponent);
+export default (reactElementFactoryRepository, triggerMappingRepository) => {
+    reactElementFactoryRepository.addFactory(MY_LIB, 'my_generic', myGenericWidgetComponentElementFactory);
 };

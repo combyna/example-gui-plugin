@@ -1,6 +1,8 @@
 name: example_gui
 description: Example additional GUI tools
-events: []
+events:
+    close_me:
+        payload: ~
 widgets:
     my_generic:
         type: primitive
@@ -8,4 +10,4 @@ widgets:
             title: text
         children:
             body: ~
-        events: []
+        events: [example_gui.close_me, example_gui.collapse_me]

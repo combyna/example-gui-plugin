@@ -1,7 +1,10 @@
 import React from 'react';
 
 const MyGenericWidgetComponent = ({
+    onClick,
     title
-}) => <pre>I'm a generic widget: { title }</pre>;
+}) => <pre onClick={onClick}>
+    I'm a generic widget: { title }
+    </pre>;
 
 export default MyGenericWidgetComponent;
