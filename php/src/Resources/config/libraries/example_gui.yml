@@ -3,6 +3,8 @@ description: Example additional GUI tools
 events:
     close_me:
         payload: ~
+    collapse_me:
+        payload: ~
 widgets:
     my_generic:
         type: primitive
