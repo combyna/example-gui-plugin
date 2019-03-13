@@ -6,7 +6,7 @@
             "Combyna\\Plugin\\ExampleGui\\": "php/src"
         }
     },
-    "require": {
+    "require-dev": {
         "combyna/combyna": "dev-rush"
     }
 }
